@@ -1,0 +1,15 @@
+### GET FREINDS
+GET http://127.0.0.1:3000/friends
+
+
+### GET A FRIEND
+GET http://127.0.0.1:3000/friends/2
+
+### CREATE A FRIEND
+POST http://127.0.0.1:3000/friends
+Content-Type: application/json
+
+{
+      "id": 4,
+      "name": "Elon Musk"
+}
